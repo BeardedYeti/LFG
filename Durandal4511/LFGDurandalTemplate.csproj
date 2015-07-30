@@ -225,27 +225,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\global\session.js" />
+    <Content Include="App\images\dota2.png" />
     <Content Include="App\main-built.js" />
     <Content Include="App\main.js" />
+    <Content Include="App\repository\videoGameList.js" />
     <Content Include="App\services\logger.js" />
     <Content Include="App\services\security.js" />
+    <Content Include="App\viewmodels\dota2.js" />
     <Content Include="App\viewmodels\flickr.js" />
     <Content Include="App\viewmodels\login.js" />
-    <Content Include="App\viewmodels\manage.js" />
+    <Content Include="App\viewmodels\profile.js" />
     <Content Include="App\viewmodels\register.js" />
     <Content Include="App\viewmodels\registerExternal.js" />
     <Content Include="App\viewmodels\shell.js" />
     <Content Include="App\viewmodels\start.js" />
-    <Content Include="App\viewmodels\welcome.js" />
+    <Content Include="App\viewmodels\browse.js" />
     <Content Include="App\views\detail.html" />
+    <Content Include="App\views\dota2.html" />
     <Content Include="App\views\flickr.html" />
     <Content Include="App\views\login.html" />
-    <Content Include="App\views\manage.html" />
+    <Content Include="App\views\profile.html" />
     <Content Include="App\views\register.html" />
     <Content Include="App\views\registerExternal.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="App\views\start.html" />
-    <Content Include="App\views\welcome.html" />
+    <Content Include="App\views\browse.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\bootstrap-theme.css" />

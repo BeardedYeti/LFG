@@ -1,0 +1,24 @@
+﻿<section>
+    <div class="jumbotron">
+        <h1 data-bind="html: displayName"></h1>
+        <section>
+            <div class="row" data-bind="foreach: videoGame">
+                <div class="col-sm-6 col-md-3">
+                    <a href="url" class="thumbnail" data-bind="click:$parent.select">
+                        <img style="width: 250px; height: 250px;" data-bind="attr: { text: title, src: image }" />
+                        <p data-bind="text: title"></p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <h3>Features</h3>
+    <ul data-bind="foreach: features">
+        <li data-bind="html: $data"></li>
+    </ul>
+    <h3>Useful links</h3>
+    <ul data-bind="foreach: references">
+        <li><a data-bind="attr: {href: url}, text: name" target="_blank"></a></li>
+    </ul>
+</section>

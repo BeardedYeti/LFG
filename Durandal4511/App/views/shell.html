@@ -8,11 +8,16 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" data-bind="attr: { href: router.navigationModel()[0].hash }">
-                <i class="fa fa-home"></i>Durandal
+                <i class="fa fa-bolt"></i>LFG
             </a>
         </div>
+        <form class="navbar-form navbar-right" role="search" data-bind="submit:search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+        </form>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav" data-bind="foreach: router.navigationModel">
+            <ul class="nav navbar-nav nav " data-bind="foreach: router.navigationModel">
                 <li data-bind="css: { active: isActive }, ifIsInRole: $data.requiredRoles">
                     <a data-bind="attr: { href: hash }, html: title"></a>
                 </li>
@@ -20,10 +25,13 @@
             <div class="nav navbar-nav navbar-right">
                 <ul class="nav navbar-nav">
                     <li data-bind="visible: session.isLoggedIn()">
-                        <span class="navbar-text nofloat">Hello, <a href="#/manage" class="navbar-link" data-bind="text: session.userName()"></a>!</span>
+                        <span class="navbar-text nofloat">Hello, <a href="#/profile" class="navbar-link" data-bind="text: session.userName()"></a>!</span>
                     </li>
                     <li data-bind="visible: !session.isLoggedIn()">
-                        <a href="#login" class="navbar-link">sign in</a>
+                        <a href="#login" class="navbar-link">Sign In</a>
+                    </li>
+                    <li data-bind="visible: !session.isLoggedIn()">
+                        <a href="#register" class="navbar-link">Register</a>
                     </li>
                     <li>
                         <a href="#" data-bind="click: logout,visible: session.isLoggedIn()">Log off</a>

@@ -1,6 +1,7 @@
-﻿define([], function () {
-    var vm = {
-        displayName: 'Durandal 451',        
+﻿define(['durandal/app', 'knockout', 'repository/videoGameList'], function (app, ko, videoGameList) {
+
+    return {
+        displayName: 'Browse LFG Games',        
         features: [
             'OWIN OAuth support (with 3rd party authentication providers)',
             'Remember user using local storage',
@@ -11,8 +12,12 @@
             {name:'Durandal', url: 'http://durandaljs.com/'},
             {name:'Bootstrap', url: 'http://getbootstrap.com/'},
             {name:'ASP.NET OWIN', url: 'http://www.asp.net/vnext/overview/authentication'}            
-        ]
-    };        
+        ],
 
-    return vm;
+        videoGame: ko.observableArray([]),
+        activate: function () {
+            this.videoGame(videoGameList.listVideoGames());
+        }
+    };
+       
 });

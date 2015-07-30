@@ -16,13 +16,15 @@
 
     function setupRouter() {
         router.map([
-                { route: '', title: 'Welcome', moduleId: 'viewmodels/welcome', nav: true},
-                { route: 'welcome', title: 'Welcome', moduleId: 'viewmodels/welcome' },                
+                { route: '', title: 'Browse', moduleId: 'viewmodels/browse', nav: true},
+                { route: 'browse', title: 'Browse', moduleId: 'viewmodels/browse' },
+                //{ route: 'friends', title: 'Friends', moduleId: 'viewmodels/friends', nav: true, requiredRoles: ['RegisteredUser']},
                 { route: 'register', moduleId: 'viewmodels/register', nav: false},
                 { route: 'login', moduleId: 'viewmodels/login', nav: false},
                 { route: 'registerExternal', moduleId: 'viewmodels/registerExternal', nav: false},
-                { route: 'manage', moduleId: 'viewmodels/manage', nav: false, requiredRoles: ['RegisteredUsers'] },
-                { route: 'start', title: 'Get started', moduleId: 'viewmodels/start', nav: true, requiredRoles: ['RegisteredUsers']}
+                { route: 'profile', moduleId: 'viewmodels/profile', nav: false, requiredRoles: ['RegisteredUsers'] },
+                { route: 'start', title: 'Start', moduleId: 'viewmodels/start', nav: true, requiredRoles: ['RegisteredUsers'] },
+                { route: 'dota2', moduleID: 'viewmodels/dota2', nav: false}
         ]).buildNavigationModel();
 
         router.guardRoute = function (routeInfo, params, instance) {
