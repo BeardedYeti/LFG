@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Durandal4511</RootNamespace>
-    <AssemblyName>Durandal4511</AssemblyName>
+    <RootNamespace>LFG</RootNamespace>
+    <AssemblyName>LFG</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -311,6 +311,7 @@
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Content\toastr.less" />
     <None Include="Properties\PublishProfiles\localiis.pubxml" />
+    <None Include="Properties\PublishProfiles\localIISdev.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

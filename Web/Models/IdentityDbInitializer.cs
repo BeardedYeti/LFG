@@ -1,12 +1,8 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using System.Data.Entity;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace Durandal4511.Models
+namespace LFG.Models
 {
     public class IdentityDbInitializer : CreateDatabaseIfNotExists<IdentityDbContext>
     {

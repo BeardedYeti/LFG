@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using LFG;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Durandal4511.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace Durandal4511
+namespace LFG
 {
     public partial class Startup
     {

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace Durandal4511
+namespace LFG
 {
     public class BundleConfig
     {

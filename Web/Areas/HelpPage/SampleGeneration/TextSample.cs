@@ -1,6 +1,6 @@
 using System;
 
-namespace Durandal4511.Areas.HelpPage
+namespace LFG.Areas.HelpPage.SampleGeneration
 {
     /// <summary>
     /// This represents a preformatted text sample on the help page. There's a display template named TextSample associated with this class.

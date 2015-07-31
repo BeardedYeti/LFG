@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Durandal4511.Models
+namespace LFG.Models
 {
     // Models returned by AccountController actions.
 

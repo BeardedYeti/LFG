@@ -7,9 +7,10 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Durandal4511.Areas.HelpPage.Models;
+using LFG.Areas.HelpPage.Models;
+using LFG.Areas.HelpPage.SampleGeneration;
 
-namespace Durandal4511.Areas.HelpPage
+namespace LFG.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {
