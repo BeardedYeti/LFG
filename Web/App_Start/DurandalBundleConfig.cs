@@ -1,7 +1,7 @@
 using System;
 using System.Web.Optimization;
 
-namespace Durandal4511
+namespace LFG
 {
     public class DurandalBundleConfig
     {

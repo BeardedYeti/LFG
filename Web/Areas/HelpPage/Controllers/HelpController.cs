@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Durandal4511.Areas.HelpPage.Models;
+using LFG.Areas.HelpPage.Models;
 
-namespace Durandal4511.Areas.HelpPage.Controllers
+namespace LFG.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

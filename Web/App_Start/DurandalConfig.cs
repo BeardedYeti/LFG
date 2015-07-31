@@ -1,10 +1,10 @@
-using System;
 using System.Web.Optimization;
+using LFG;
 
 [assembly: WebActivator.PostApplicationStartMethod(
-    typeof(Durandal4511.App_Start.DurandalConfig), "PreStart")]
+    typeof(DurandalConfig), "PreStart")]
 
-namespace Durandal4511.App_Start
+namespace LFG
 {
     public static class DurandalConfig
     {

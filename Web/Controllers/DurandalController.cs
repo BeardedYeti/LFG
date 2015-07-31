@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace Durandal4511.Controllers
+namespace LFG.Controllers
 {
     public class DurandalController : Controller
     {

@@ -1,7 +1,8 @@
 using System.Web.Http;
 using System.Web.Mvc;
+using LFG.Areas.HelpPage.App_Start;
 
-namespace Durandal4511.Areas.HelpPage
+namespace LFG.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

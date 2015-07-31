@@ -7,17 +7,16 @@ using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using System.Web.Http.ModelBinding;
+using LFG.Models;
+using LFG.Providers;
+using LFG.Results;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
-using Durandal4511.Models;
-using Durandal4511.Providers;
-using Durandal4511.Results;
 
-namespace Durandal4511.Controllers
+namespace LFG.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]

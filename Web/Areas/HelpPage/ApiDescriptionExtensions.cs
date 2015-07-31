@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace Durandal4511.Areas.HelpPage
+namespace LFG.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {
