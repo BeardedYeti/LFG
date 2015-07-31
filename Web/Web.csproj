@@ -309,8 +309,8 @@
     <Content Include="Scripts\durandal\viewLocator.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
-    <Content Include="weyland-config.js" />
     <Content Include="Content\toastr.less" />
+    <None Include="Properties\PublishProfiles\localiis.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
