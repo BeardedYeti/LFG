@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFGDurandalTemplate", "Durandal4511\LFGDurandalTemplate.csproj", "{E5385950-C0D6-4CA2-B756-D730DA647F9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Durandal4511\Web.csproj", "{E5385950-C0D6-4CA2-B756-D730DA647F9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{91B1270C-0CB4-4081-BAFF-7020C28B4949}"
 EndProject
