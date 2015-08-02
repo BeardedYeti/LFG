@@ -310,6 +310,9 @@
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Content\toastr.less" />
+    <Content Include="weyland-config.js" />
+    <None Include="Properties\PublishProfiles\iisdebug.pubxml" />
+    <None Include="Properties\PublishProfiles\lfgRel.pubxml" />
     <None Include="Properties\PublishProfiles\localiis.pubxml" />
     <None Include="Properties\PublishProfiles\localIISdev.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -378,11 +381,8 @@
   </Target>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <PropertyGroup>
-    <PostBuildEvent>if '$(Configuration)'=='Release' (
-    cd $(ProjectDir)
-    call "C:\Program Files\nodejs\nodevars.bat"
-     start cmd /C "weyland build"
-)</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

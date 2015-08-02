@@ -14,22 +14,22 @@ namespace LFG
     {
         static Startup()
         {
-            PublicClientId = "self";
+            //PublicClientId = "self";
 
-            InitializeDatabase();
+            //InitializeDatabase();
 
-            UserManagerFactory = () => new UserManager<IdentityUser>(new UserStore<IdentityUser>());
+            //UserManagerFactory = () => new UserManager<IdentityUser>(new UserStore<IdentityUser>());
 
-            RoleManagerFactory = () => new RoleManager<IdentityRole>(new RoleStore<IdentityRole>());
+            //RoleManagerFactory = () => new RoleManager<IdentityRole>(new RoleStore<IdentityRole>());
 
-            OAuthOptions = new OAuthAuthorizationServerOptions
-            {
-                TokenEndpointPath = new PathString("/Token"),
-                Provider = new ApplicationOAuthProvider(PublicClientId, UserManagerFactory),
-                AuthorizeEndpointPath = new PathString("/api/Account/ExternalLogin"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromDays(14),
-                AllowInsecureHttp = true
-            };
+            //OAuthOptions = new OAuthAuthorizationServerOptions
+            //{
+            //    TokenEndpointPath = new PathString("/Token"),
+            //    Provider = new ApplicationOAuthProvider(PublicClientId, UserManagerFactory),
+            //    AuthorizeEndpointPath = new PathString("/api/Account/ExternalLogin"),
+            //    AccessTokenExpireTimeSpan = TimeSpan.FromDays(14),
+            //    AllowInsecureHttp = true
+            //};
         }
 
         private static void InitializeDatabase()
