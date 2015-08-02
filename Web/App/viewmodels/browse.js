@@ -1,7 +1,7 @@
 ﻿define(['durandal/app', 'knockout', 'repository/videoGameList'], function (app, ko, videoGameList) {
 
     return {
-        displayName: 'What are you playing?',        
+        displayName: 'Browse LFG Games',        
         features: [
             'OWIN OAuth support (with 3rd party authentication providers)',
             'Remember user using local storage',
