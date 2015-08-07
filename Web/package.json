@@ -1,0 +1,30 @@
+{
+  "name": "lfg",
+  "version": "0.0.3",
+  "description": "universal video game friend finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeardedYeti/LFG.git"
+  },
+  "keywords": [
+    "durandal",
+    "require",
+    "jquery",
+    "bootstrap",
+    "almond",
+    "gulp",
+    ".net",
+    "knockout",
+    "lfg"
+  ],
+  "author": "Colin Smith, Chris Bye",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BeardedYeti/LFG/issues"
+  },
+  "homepage": "https://github.com/BeardedYeti/LFG#readme"
+}
