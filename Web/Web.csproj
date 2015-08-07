@@ -22,6 +22,7 @@
     <IISExpressUseClassicPipelineMode />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -290,6 +291,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="gulpfile.js" />
     <Content Include="Scripts\almond-custom.js" />
     <Content Include="Scripts\durandal\activator.js" />
     <Content Include="Scripts\durandal\app.js" />
@@ -310,7 +312,6 @@
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Content\toastr.less" />
-    <Content Include="weyland-config.js" />
     <None Include="Properties\PublishProfiles\iisdebug.pubxml" />
     <None Include="Properties\PublishProfiles\lfgRel.pubxml" />
     <None Include="Properties\PublishProfiles\localiis.pubxml" />
@@ -351,6 +352,7 @@
     <Content Include="Views\Durandal\_splash.cshtml" />
     <Content Include="Scripts\toastr.min.js.map" />
     <Content Include="Scripts\jquery.utilities.js" />
+    <Content Include="Scripts\package.json" />
     <None Include="Web.config.install.xdt">
       <SubType>Designer</SubType>
     </None>
