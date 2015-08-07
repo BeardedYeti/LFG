@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/BeardedYeti/LFG/issues"
   },
-  "homepage": "https://github.com/BeardedYeti/LFG#readme"
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-durandal": "^1.1.7",
+    "gulp-util": "^3.0.6"
+  }
 }
