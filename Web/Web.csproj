@@ -312,7 +312,6 @@
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Content\toastr.less" />
-    <Content Include="package.json" />
     <None Include="Properties\PublishProfiles\iisdebug.pubxml" />
     <None Include="Properties\PublishProfiles\lfgRel.pubxml" />
     <None Include="Properties\PublishProfiles\localiis.pubxml" />
