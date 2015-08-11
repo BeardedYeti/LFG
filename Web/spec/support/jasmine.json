@@ -5,5 +5,11 @@
   ],
   "helpers": [
     "helpers/**/*.js"
+  ],
+  "system_tests": [
+    "system_tests/*.js"
+  ],
+  "module_tests": [
+    "module_tests/*.js"
   ]
 }

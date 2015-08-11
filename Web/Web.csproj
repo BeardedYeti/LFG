@@ -7535,6 +7535,8 @@
   <ItemGroup>
     <Folder Include="App\utilities\" />
     <Folder Include="App_Data\" />
+    <Folder Include="spec\module_tests\" />
+    <Folder Include="spec\system_tests\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
