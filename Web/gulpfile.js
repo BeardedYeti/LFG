@@ -1,6 +1,5 @@
 ﻿var gulp = require('gulp');
 var durandal = require('gulp-durandal');
-var jasmine = require('gulp-jasmine');
 
 gulp.task('build-portal', function () {
     durandal({
@@ -10,8 +9,4 @@ gulp.task('build-portal', function () {
         almond: true,//almond is running instead of require
         minify: false
     }).pipe(gulp.dest('app'));
-});
-gulp.task('default', function () {
-    return gulp.src('spec/test.js')
-    .pipe(jasmine());
 });
