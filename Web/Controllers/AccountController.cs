@@ -25,11 +25,15 @@ namespace LFG.Controllers
         private const string LocalLoginProvider = "Local";
         private const string DefaultUserRole = "RegisteredUsers";
 
-        public AccountController()
-            : this(Startup.UserManagerFactory(), Startup.OAuthOptions.AccessTokenFormat)
+       //public AccountController()
+       //    : this(Startup.UserManagerFactory(), Startup.OAuthOptions.AccessTokenFormat)
+       //{
+       // }
+       public AccountController()
         {
+            UserManager = Startup.UserManagerFactory();
+            AccessTokenFormat = Startup.OAuthOptions.AccessTokenFormat;
         }
-
         public AccountController(UserManager<IdentityUser> userManager,
             ISecureDataFormat<AuthenticationTicket> accessTokenFormat)
         {

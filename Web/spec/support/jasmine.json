@@ -6,8 +6,8 @@
   "helpers": [
     "helpers/**/*.js"
   ],
-  "system_tests": [
-    "system_tests/*.js"
+  "build_tests": [
+    "build_tests/*.js"
   ],
   "module_tests": [
     "module_tests/*.js"
