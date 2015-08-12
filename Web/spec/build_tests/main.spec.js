@@ -17,7 +17,7 @@ define(['plugins/router', 'main'], function (router) {
     });
 
     describe('app', function () {
-        var app = require('durandal/app');
+        var app = require('/app');
 
         it('should have a title property', function () {
             expect(app.title).toBeDefined();

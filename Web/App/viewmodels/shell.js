@@ -254,7 +254,7 @@
                 });
             }).always(function () {
                 session.clearUser();
-                router.navigate('#/welcome', 'replace');
+                router.navigate('#/browse', 'replace');
             });
         }
     };
