@@ -7502,6 +7502,7 @@
     <Content Include="spec\build_tests\main.spec.js" />
     <Content Include="spec\helpers\jasmine_examples\SpecHelper.js" />
     <Content Include="spec\jasmine_examples\PlayerSpec.js" />
+    <Content Include="spec\module_tests\dota2.spec.js" />
     <Content Include="spec\module_tests\browse.spec.js" />
     <Content Include="spec\module_tests\shell.spec.js" />
     <Content Include="Views\_ViewStart.cshtml" />
