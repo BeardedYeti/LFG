@@ -4,8 +4,8 @@
         <section>
             <div class="row" data-bind="foreach: videoGame">
                 <div class="col-sm-6 col-md-3">
-                    <a href="url" class="thumbnail" data-bind="click:$parent.select">
-                        <img style="width: 250px; height: 250px;" data-bind="attr: { text: title, src: image }" />
+                    <a data-bind="attr: { href: 'app/viewmodels/'+id }" class="thumbnail" data-bind="click:$parent.select">
+                        <img data-bind="attr: { src: image }" />
                         <p data-bind="text: title"></p>
                     </a>
                 </div>
