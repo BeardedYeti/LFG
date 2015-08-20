@@ -1,14 +1,21 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #00162B;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    color: #00005A;
 }
 
+.jumbotron {
+    color: #FF3300;
+}
+
+#titles
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
@@ -47,9 +54,27 @@ input[type="checkbox"].input-validation-error {
     display: none;
 }
 
+
+
+
+
 @media only screen and (max-width: 767px) {
     .nofloat {
         float: none;
         padding: 10px 15px;
     }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecfb00;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #bfa000;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #bfa000;
+    background-color: #0257fd;
+    }
+
 }

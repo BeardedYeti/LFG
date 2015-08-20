@@ -3,12 +3,12 @@
         <h1 data-bind="html: displayName"></h1>
         <section>
             <div class="row" data-bind="foreach: videoGame">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-xs-6 col-md-3">
                     <div class="thumbnail">
 
                         <a data-bind="attr:{href: '#/'+id}">
                             <img data-bind="attr: { src: image }" />
-                            <p data-bind="text: title"></p>
+                            <p class="titles" data-bind="text: title"></p>
                         </a>
 
                     </div>

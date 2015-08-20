@@ -15,13 +15,19 @@
     -webkit-text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
     text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
     text-transform: uppercase;
+    color: #FF3300;
 }
 
-.splash .icon-spinner {
+.splash .icon-gamepad {
     text-align: center;
     display: inline-block;
     font-size: 5em;
     margin-top: 50px;
+    color: #CCFFFF;
+}
+
+.splash i {
+    color: #CCFFFF;
 }
 
 .page-host {
@@ -34,8 +40,8 @@
     padding-right: 1em;
 }
 
-.navbar-default .fa-home {
-    margin-right: 5px;
+.navbar-default .fa-bolt {
+    margin-right: 20px;
 }
 
 .loader {
@@ -51,13 +57,13 @@
     visibility: visible;
 }
 
-.flickr .list-inline>li:first-child {
+/*.flickr .list-inline>li:first-child {
     padding-left: 5px;
 }
 
 .flickr li {
     padding: 5px;
-}
+}*/
 
 @media (max-width: 979px) {
     .page-host {
